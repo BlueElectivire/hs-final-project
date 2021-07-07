@@ -1,0 +1,26 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.40203.910",
+  "ExtendedData": {
+    "inputs": [
+      "http://localhost:8733/Design_Time_Addresses/GameServiceLibrary/GameService/"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, Service"
+    ],
+    "references": [
+      "AssetManagementBase, {AssetManagementBase, 0.5.2}",
+      "BenchmarkUtils, {BenchmarkUtils, 1.2.2}",
+      "Cyotek.Drawing.BitmapFont, {Cyotek.Drawing.BitmapFont, 2.0.1}",
+      "Edgar, {Edgar-DotNet, 2.0.0-alpha.1}",
+      "FontStashSharp.MonoGame, {FontStashSharp.MonoGame, 0.9.2}",
+      "GraphPlanarityTesting, {GraphPlanarityTesting, 1.0.0}"
+    ],
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}

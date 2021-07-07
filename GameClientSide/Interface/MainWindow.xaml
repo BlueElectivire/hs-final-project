@@ -1,0 +1,33 @@
+﻿<Window x:Class="Interface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interface"
+        xmlns:HamburgerMenu="clr-namespace:HamburgerMenu;assembly=HamburgerMenu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <HamburgerMenu:HamburgerMenu Grid.Column="0" Name="hamburger" MenuItemForeground="White" MaxWidth="200">
+            <HamburgerMenu:HamburgerMenu.Background>
+                <SolidColorBrush Color="Gray"/>
+            </HamburgerMenu:HamburgerMenu.Background>
+            <HamburgerMenu:HamburgerMenu.SelectionIndicatorColor>
+                <SolidColorBrush Color="White"/>
+            </HamburgerMenu:HamburgerMenu.SelectionIndicatorColor>
+            <HamburgerMenu:HamburgerMenu.Content>
+                <HamburgerMenu:HamburgerMenuItem x:Name="Dummy" Text="Dummy"  Visibility="Collapsed" />
+                <HamburgerMenu:HamburgerMenuItem Icon="Assets/user.png" Text="Users" Selected="HamburgerMenuItem_Selected" SelectionCommand="{Binding ElementName=this_}" />
+                <HamburgerMenu:HamburgerMenuItem Icon="Assets/game.png" Text="Games" Selected="HamburgerMenuItem_Selected_1" SelectionCommand="{Binding ElementName=this_}" />
+            </HamburgerMenu:HamburgerMenu.Content>
+        </HamburgerMenu:HamburgerMenu>
+
+        <Frame x:Name="myFrame" Grid.Column="1" Source="Users.xaml" />
+        
+    </Grid>
+</Window>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e87350ee-5593-41ee-93ef-18edf5e46801" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/GameServiceLibrary/GameService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="b06709c8-48bb-47c5-b25a-08d0ed7a2b5c" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/GameServiceLibrary/GameService/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="2baa6134-e447-445e-9721-fb4bcbe9dfb2" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/GameServiceLibrary/GameService/?xsd=xsd1" />
+    <MetadataFile FileName="GameService.wsdl" MetadataType="Wsdl" ID="a72d02d3-435d-48dc-a195-4849eec9b93f" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/GameServiceLibrary/GameService/?wsdl" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="aee0ad3f-240e-4ae6-b27c-1839ba797145" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/GameServiceLibrary/GameService/?xsd=xsd2" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="c8050ba1-6cb6-4b44-8ef8-cbd715b5a888" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/GameServiceLibrary/GameService/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
